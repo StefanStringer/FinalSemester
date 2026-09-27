@@ -62,5 +62,3 @@ print("Double check to see if it comes out like it shows in assignment descripti
 for i in range(5):
     image, label = dataset[i]
     print(f"<image data from {dataset.img_labels.iloc[i, 2]}>,  {label}")
-    # print(f"  Tensor shape: {image.shape}, dtype: {image.dtype}")
-    # print()
