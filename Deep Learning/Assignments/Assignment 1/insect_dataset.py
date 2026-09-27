@@ -32,3 +32,8 @@ class InsectDataset(Dataset):
             species_label = self.target_transform(species_label)
         
         return image, species_label
+    
+# Here i have a print statement to ensure that its given just like how it says in the assignment example description. Minor sanity check. This was placed at the end of dataset_tester.py
+# for i in range(5):
+#     image, label = dataset[i]
+#     print(f"<image data from {dataset.img_labels.iloc[i, 2]}>,  {label}")
